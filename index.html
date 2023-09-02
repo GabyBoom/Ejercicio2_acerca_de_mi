@@ -10,9 +10,9 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!------------------Start nav------------------------>
-    <!------------------Start header------------------------>
-    <header class="header">
+    <!------------------Inicio nav------------------------>
+    <!------------------Inicio header------------------------>
+    <header class="header" id="inicio">
     <nav class="navbar">
         <div><a href="#inicio" class="navbar-nombre"><img src="assets/imagenes/logo.png" alt="logo" class="logo"></a></div>
         <ul class="navbar-menu">
@@ -23,8 +23,8 @@
         </ul>
     </nav>
     </header>
-    <!------------------End nav------------------------>
-    <!------------------End header------------------------>
+    <!------------------Fin nav------------------------>
+    <!------------------Fin header------------------------>
 
     <!------------------Inicio Seccion Banner------------------->
     <div class="titulo">
@@ -37,7 +37,7 @@
     <!------------------Fin Seccion Banner------------------->
     <!------------------Inicio Seccion articulo------------------>
     <section>
-        <div class="section">
+        <div class="section" id="acerca_de">
         <div class="section">
             <div class="articulos">
                 <h2 class="h2">Acerca de Mí</h2>
@@ -52,7 +52,7 @@
     </section>
     <hr>
     <!------------------Fin Seccion articulo------------------>
-    <!------------------Inicio Seccion articulo------------------>
+    <!------------------Inicio Seccion articulo--------------->
     <section>
         <div class="section">
         <div class="section">
@@ -67,24 +67,42 @@
             </div>
     </section>
     <hr>
-    <!------------------Fin Seccion articulo-------------------->
-    <!------------------start footer---------------------->
-    <footer class="footer" id="contacto">
-        <div class="menu-secundario">
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-            <a href="#">Mas articulos</a>
-        </div>
+    <!------------------Fin Seccion articulo----------------->
+    <!------------------Inicio de contacto------------------->
+    
+    <h3 class="h3">Contacto</h3>
+    <div class="form-container">
+    <form class="form">
+        <label for="nombre" class="form-box">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email" class="form-box">Email:</label>
+        <input type="email" id="email" name="email" value="gabrielburgos1778@gmail.com" required><br><br>
+
+        <label for="asunto" class="form-box">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required><br><br>
+
+        <label for="mensaje" class="form-box">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar" class="boton">
+        <input type="reset" value="Limpiar" class="boton">
+    </form>
+    <div class="contacto-links">
+        <a href="https://www.instagram.com/gaby_burgoss/" target="_blank"><img src="assets/imagenes/instagram.png" alt="logo-instagram">Instagram</a>
+        <a href="https://github.com/GabyBoom" target="_blank"><img src="assets/imagenes/github.png" alt="logo-github">GitHub</a>
+        <a href="https://www.youtube.com/@hectorgabrielburgos2673/videos" target="_blank"><img src="assets/imagenes/youtube.png" alt="logo-yt">Youtube</a>
     </div>
-        <p>&copy; Todos los derechos reservados</p>
+    </div>
+    <!------------------Fin de contacto---------------------->
+    <!------------------Inicio footer------------------------>
+    <footer class="footer" id="contacto">
+        <p>&copy; Todos los derechos reservados
+            <br>
+            Desarrollado por GabyBoom
+        </p>
     </footer>
-    <!------------------end footer---------------------->
+    <!------------------Fin footer---------------------->
    
 </body>
 </html>

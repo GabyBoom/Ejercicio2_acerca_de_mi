@@ -10,6 +10,8 @@
     padding: auto;
     width: 100px;
     display: flex;
+    position: fixed;
+    top: 0;
 }
 .navbar-nombre img:hover{
     background-color: #97FEED;

@@ -1,19 +1,8 @@
 .footer{
+    margin-top: 50px;
+    padding: 10px;
     width: 100%;
-    height: 10%;
-    background-color: #0B666A;
+    height: 60px;
+    background-color: #071952;
     text-align: center;
 }
-/*
-.menu-secundario{
-    width: 20%;
-    margin-top: 60px;
-}
-.menu-secundario li{
-    display: block;
-    text-align: center;
-    color: #97FEED;
-    margin-bottom: 20px;
-    text-decoration: none;
-}
-*/

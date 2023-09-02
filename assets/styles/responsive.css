@@ -1,0 +1,31 @@
+/* inicio navbar */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-nombre{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+    }
+
+    .navbar-menu li {
+        margin: 10px;
+    }
+}
+/* Fin navbar */
+/* inicio section */
+@media screen and (max-width: 400px) {
+    textarea, 
+    input {
+        width: 200px;
+    }
+
+}
+
+/* fin section */

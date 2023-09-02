@@ -1,0 +1,61 @@
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.form-box{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 400px;
+}
+
+form:hover,
+textarea:hover,
+input:hover{
+    transition: all 1s ease;
+    box-shadow: 0 0 30px #97FEED;
+}
+.boton{
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: inset 10px 10px 10px 0 #0b656a81;
+}
+.contacto-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.contacto-links a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.contacto-links a:hover{
+    color: #97FEED;
+    transition: all 1s ease;
+}
+.contacto-links img{
+    margin: 10px;
+    width: 50px;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+}
